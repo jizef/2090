@@ -1,0 +1,21 @@
+Gentoo Linux内核配置文件
+
+机型：
+Clevo W650DC/炫龙毁灭者DC
+
+错误：
+触摸板丢失同步，可以加入内核启动参数"psmouse.proto=imps"，但是这样会失去触摸板的多点触控和滚动功能
+没有其他错误
+
+如何使用：
+加上内核启动参数解决显卡挂起/屏幕冻结问题"acpi_osi=! acpi_osi='Windows 2009' acpi_backlight=vendor"
+
+基本步骤
+$ sudo emerge -av gentoo-sources
+$ sudo -s
+# eselect kernel set linux-4.18.6-gentoo //什么版本号没关系
+# cd /usr/src/linux
+# cp config-4.18.6-gentoo ./
+# make modules_prepare
+# make -j4 && make modules_install
+# make install
