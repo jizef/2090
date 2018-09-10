@@ -4,7 +4,7 @@ Gentoo Linux内核配置文件
 Clevo W650DC/炫龙毁灭者DC
 
 说明：
-完全参考金步国前辈的相关文章，驱动基本找齐，基本没有错误
+完全参考金步国前辈的相关文章，驱动基本找齐
 http://www.jinbuguo.com/kernel/longterm-linux-kernel-options.
 
 错误：
