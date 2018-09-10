@@ -9,7 +9,7 @@ http://www.jinbuguo.com/kernel/longterm-linux-kernel-options.
 
 错误：
 触摸板丢失同步，可以加入内核启动参数"psmouse.proto=imps"，但是这样会失去触摸板的多点触控和滚动功能，如有高人能解决这个问题请联系我
-没有其他错误
+没有其他错误，如果有欢迎指出或者帮助更新
 
 如何使用：
 加上内核启动参数解决显卡挂起/屏幕冻结问题"acpi_osi=! acpi_osi='Windows 2009' acpi_backlight=vendor"
