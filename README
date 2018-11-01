@@ -19,7 +19,7 @@ $ sudo emerge -av gentoo-sources
 $ sudo -s
 # eselect kernel set linux-4.18.6-gentoo //什么版本号没关系
 # cd /usr/src/linux
-# cp config-4.18.6-gentoo ./
+# cp config-4.18.6-gentoo ./.config
 # make modules_prepare
-# make -j4 && make modules_install
+# make -j8 && make modules_install
 # make install
